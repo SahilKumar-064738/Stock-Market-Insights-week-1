@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilities Sector Overview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #e0f7fa; /* Light cyan background */
+            color: #333; /* Dark text */
+            scroll-behavior: smooth;
+        }
+        header {
+            background: #00796b; /* Teal color for utilities */
+            padding: 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #ffffff; /* White text */
+        }
+        h2 {
+            font-size: 2em;
+            margin: 20px 0;
+            border-bottom: 2px solid #00796b; /* Teal underline */
+            padding-bottom: 10px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background: #ffffff; /* White section background */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 1.1em;
+        }
+        .company-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .company-list a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: #333; /* Dark text */
+            transition: transform 0.3s;
+            flex-basis: 150px;
+        }
+        .company-list a:hover {
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+        .company-list img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            padding: 15px;
+            background: #00796b; /* Teal */
+            color: #ffffff; /* White text */
+            border-radius: 8px;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #00796b; /* Teal */
+            color: #ffffff;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            display: none;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s;
+        }
+        .back-to-top:hover {
+            background: #004d40; /* Darker teal on hover */
+        }
+        @media (max-width: 768px) {
+            header, footer {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Utilities Sector Overview</h1>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+            The utilities sector provides essential services such as water, electricity, and natural gas. This sector is fundamental
+            for public welfare and economic stability, ensuring that essential resources are available for households and businesses.
+        </p>
+    </section>
+
+    <section id="key-segments">
+        <h2>Key Segments</h2>
+        <ul>
+            <li><strong>Electric Utilities</strong>: Companies that generate, transmit, and distribute electricity.</li>
+            <li><strong>Water Utilities</strong>: Providers of potable water and wastewater management.</li>
+            <li><strong>Natural Gas Utilities</strong>: Firms that distribute natural gas for heating and energy.</li>
+            <li><strong>Renewable Utilities</strong>: Companies focusing on sustainable energy sources like solar and wind.</li>
+        </ul>
+    </section>
+
+    <section id="future-outlook">
+        <h2>Future Outlook</h2>
+        <p>
+            The utilities sector is undergoing a transformation with a strong shift towards renewable energy sources and sustainability.
+            Innovations in smart grid technology and energy storage are paving the way for a more efficient and environmentally friendly
+            future.
+        </p>
+    </section>
+
+    <section id="challenges">
+        <h2>Challenges</h2>
+        <p>
+            The sector faces challenges such as aging infrastructure, regulatory changes, and the need for significant investment
+            in new technologies to meet growing energy demands and environmental standards.
+        </p>
+    </section>
+
+    <section id="top-companies">
+        <h2>Top 10 Companies</h2>
+        <div class="company-list">
+            <a href="https://www.nextEraenergy.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5d/NextEra_Energy_Logo.svg/1200px-NextEra_Energy_Logo.svg.png" alt="NextEra Energy Logo">
+                <p>NextEra Energy</p>
+            </a>
+            <a href="https://www.dteenergy.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/DTE_Energy_logo.svg/1200px-DTE_Energy_logo.svg.png" alt="DTE Energy Logo">
+                <p>DTE Energy</p>
+            </a>
+            <a href="https://www.pge.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/PG%26E_logo.svg/1280px-PG%26E_logo.svg.png" alt="PG&E Logo">
+                <p>PG&E</p>
+            </a>
+            <a href="https://www.constellation.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Constellation_Energy_Logo.svg/1200px-Constellation_Energy_Logo.svg.png" alt="Constellation Energy Logo">
+                <p>Constellation Energy</p>
+            </a>
+            <a href="https://www.edison.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Southern_California_Edison_logo.svg/1200px-Southern_California_Edison_logo.svg.png" alt="Southern California Edison Logo">
+                <p>Southern California Edison</p>
+            </a>
+            <a href="https://www.nationalgrid.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/National_Grid_logo.svg/1280px-National_Grid_logo.svg.png" alt="National Grid Logo">
+                <p>National Grid</p>
+            </a>
+            <a href="https://www.aep.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e7/AEP_logo.svg/1200px-AEP_logo.svg.png" alt="American Electric Power Logo">
+                <p>American Electric Power</p>
+            </a>
+            <a href="https://www.xcelenergy.com/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/68/Xcel_Energy_logo.svg/1200px-Xcel_Energy_logo.svg.png" alt="Xcel Energy Logo">
+                <p>Xcel Energy</p>
+            </a>
+            <a href="https://www.ferc.gov/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Federal_Energy_Regulatory_Commission_logo.svg/1200px-Federal_Energy_Regulatory_Commission_logo.svg.png" alt="FERC Logo">
+                <p>FERC</p>
+            </a>
+            <a href="https://www.siemens.com/global/en/home.html" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Siemens_logo.svg/1200px-Siemens_logo.svg.png" alt="Siemens Logo">
+                <p>Siemens</p>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Utilities Sector Insights</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">&#8679;</button>
+
+    <script>
+        // Back to top button functionality
+        const backToTopBtn = document.getElementById("backToTop");
+        window.onscroll = function () {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+        backToTopBtn.onclick = function () {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+    </script>
+</body>
+</html>

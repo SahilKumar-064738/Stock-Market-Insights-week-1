@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Communications Sector Overview</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        background-color: #f9f9f9; /* Light background */
+        color: #333; /* Dark text */
+        scroll-behavior: smooth;
+      }
+      header {
+        background: #007bff; /* Blue color for communication */
+        padding: 20px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+        color: #ffffff; /* White text */
+      }
+      h2 {
+        font-size: 2em;
+        margin: 20px 0;
+        border-bottom: 2px solid #007bff; /* Blue underline */
+        padding-bottom: 10px;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background: #ffffff; /* White section background */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        font-size: 1.1em;
+      }
+      .company-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .company-list a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #333; /* Dark text */
+        transition: transform 0.3s;
+        flex-basis: 150px;
+      }
+      .company-list a:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+      }
+      .company-list img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      footer {
+        margin-top: 40px;
+        text-align: center;
+        padding: 15px;
+        background: #007bff; /* Blue */
+        color: #ffffff; /* White text */
+        border-radius: 8px;
+      }
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #007bff; /* Blue */
+        color: #ffffff;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: background 0.3s;
+      }
+      .back-to-top:hover {
+        background: #0056b3; /* Darker blue on hover */
+      }
+      @media (max-width: 768px) {
+        header,
+        footer {
+          padding: 15px;
+        }
+        h1 {
+          font-size: 2em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Communications Sector Overview</h1>
+    </header>
+
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        The communications sector plays a vital role in connecting people and
+        businesses through various mediums, including telecommunications, media,
+        and the internet. It encompasses a wide range of services that are
+        essential for daily operations in the modern world.
+      </p>
+    </section>
+
+    <section id="key-segments">
+      <h2>Key Segments</h2>
+      <ul>
+        <li>
+          <strong>Telecommunications</strong>: Providers of mobile and landline
+          communication services.
+        </li>
+        <li>
+          <strong>Broadcast Media</strong>: Companies that deliver television
+          and radio programming.
+        </li>
+        <li>
+          <strong>Internet Services</strong>: Firms that offer internet access
+          and related services.
+        </li>
+        <li>
+          <strong>Social Media</strong>: Platforms that facilitate social
+          interaction and content sharing.
+        </li>
+      </ul>
+    </section>
+
+    <section id="future-outlook">
+      <h2>Future Outlook</h2>
+      <p>
+        The communications sector is evolving rapidly with advancements in
+        technology, such as 5G networks, IoT, and artificial intelligence. As
+        connectivity increases, companies will need to adapt to new consumer
+        behaviors and preferences.
+      </p>
+    </section>
+
+    <section id="challenges">
+      <h2>Challenges</h2>
+      <p>
+        Key challenges include regulatory pressures, cybersecurity threats, and
+        the need for constant innovation to keep up with fast-changing
+        technology and consumer expectations.
+      </p>
+    </section>
+
+    <section id="top-companies">
+      <h2>Top 10 Companies</h2>
+      <div class="company-list">
+        <a href="https://www.verizon.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Verizon_logo.svg/1200px-Verizon_logo.svg.png"
+            alt="Verizon Logo"
+          />
+          <p>Verizon</p>
+        </a>
+        <a href="https://www.att.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/AT%26T_Logo.svg/1280px-AT%26T_Logo.svg.png"
+            alt="AT&T Logo"
+          />
+          <p>AT&T</p>
+        </a>
+        <a href="https://www.t-mobile.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/T-Mobile_Logo_2018.svg/1280px-T-Mobile_Logo_2018.svg.png"
+            alt="T-Mobile Logo"
+          />
+          <p>T-Mobile</p>
+        </a>
+        <a href="https://www.sprint.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Sprint_Logo.svg/1280px-Sprint_Logo.svg.png"
+            alt="Sprint Logo"
+          />
+          <p>Sprint</p>
+        </a>
+        <a href="https://www.comcast.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Comcast_logo.svg/1280px-Comcast_logo.svg.png"
+            alt="Comcast Logo"
+          />
+          <p>Comcast</p>
+        </a>
+        <a href="https://www.att.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/AT%26T_Logo.svg/1280px-AT%26T_Logo.svg.png"
+            alt="AT&T Logo"
+          />
+          <p>AT&T</p>
+        </a>
+        <a href="https://www.telefonica.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/1/10/Telef%C3%B3nica_logo.svg/1280px-Telef%C3%B3nica_logo.svg.png"
+            alt="Telefónica Logo"
+          />
+          <p>Telefónica</p>
+        </a>
+        <a href="https://www.bt.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/BT_Group_logo.svg/1280px-BT_Group_logo.svg.png"
+            alt="BT Logo"
+          />
+          <p>BT Group</p>
+        </a>
+        <a
+          href="https://www.nippon.com/en/news/yjj2021102100051/"
+          target="_blank"
+        >
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/9/93/Nippon_Telegraph_and_Telephone_Corporation_Logo.svg/1280px-Nippon_Telegraph_and_Telephone_Corporation_Logo.svg.png"
+            alt="NTT Logo"
+          />
+          <p>NTT</p>
+        </a>
+        <a href="https://www.vodafone.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Vodafone_logo.svg/1280px-Vodafone_logo.svg.png"
+            alt="Vodafone Logo"
+          />
+          <p>Vodafone</p>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Communications Sector Insights</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">&#8679;</button>
+
+    <script>
+      // Back to top button functionality
+      const backToTopBtn = document.getElementById("backToTop");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+      backToTopBtn.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>

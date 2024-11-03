@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthcare Sector Overview</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        background-color: #f9f9f9; /* Light background */
+        color: #333; /* Dark text */
+        scroll-behavior: smooth;
+      }
+      header {
+        background: #28a745; /* Green for healthcare */
+        padding: 20px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+        color: #ffffff; /* White text */
+      }
+      h2 {
+        font-size: 2em;
+        margin: 20px 0;
+        border-bottom: 2px solid #28a745; /* Green underline */
+        padding-bottom: 10px;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background: #ffffff; /* White section background */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        font-size: 1.1em;
+      }
+      .company-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .company-list a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #333; /* Dark text */
+        transition: transform 0.3s;
+        flex-basis: 150px;
+      }
+      .company-list a:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+      }
+      .company-list img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      footer {
+        margin-top: 40px;
+        text-align: center;
+        padding: 15px;
+        background: #28a745; /* Green for healthcare */
+        color: #ffffff; /* White text */
+        border-radius: 8px;
+      }
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #007bff; /* Blue */
+        color: #ffffff;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: background 0.3s;
+      }
+      .back-to-top:hover {
+        background: #0056b3; /* Darker blue on hover */
+      }
+      @media (max-width: 768px) {
+        header,
+        footer {
+          padding: 15px;
+        }
+        h1 {
+          font-size: 2em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Healthcare Sector Overview</h1>
+    </header>
+
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        The healthcare sector is vital for improving health outcomes and
+        includes a wide range of services, products, and companies that provide
+        medical services, manufacture medical equipment, and develop
+        pharmaceuticals.
+      </p>
+    </section>
+
+    <section id="key-segments">
+      <h2>Key Segments</h2>
+      <ul>
+        <li>
+          <strong>Pharmaceuticals</strong>: Companies that develop and
+          manufacture medications.
+        </li>
+        <li>
+          <strong>Medical Devices</strong>: Manufacturers of medical equipment
+          and diagnostic tools.
+        </li>
+        <li>
+          <strong>Healthcare Providers</strong>: Hospitals, clinics, and other
+          facilities offering medical services.
+        </li>
+        <li>
+          <strong>Biotechnology</strong>: Companies focused on developing
+          technologies and products based on biological systems.
+        </li>
+      </ul>
+    </section>
+
+    <section id="future-outlook">
+      <h2>Future Outlook</h2>
+      <p>
+        The healthcare sector is poised for significant growth due to
+        advancements in technology, personalized medicine, and increasing demand
+        for healthcare services. Telehealth and digital health solutions are
+        becoming increasingly prominent in delivering care.
+      </p>
+    </section>
+
+    <section id="challenges">
+      <h2>Challenges</h2>
+      <p>
+        The sector faces challenges such as regulatory hurdles, rising costs,
+        and the need for continuous innovation to improve patient outcomes and
+        efficiency in healthcare delivery.
+      </p>
+    </section>
+
+    <section id="top-companies">
+      <h2>Top 10 Companies</h2>
+      <div class="company-list">
+        <a href="https://www.jnj.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Johnson_%26_Johnson_logo.svg/1280px-Johnson_%26_Johnson_logo.svg.png"
+            alt="Johnson & Johnson Logo"
+          />
+          <p>Johnson & Johnson</p>
+        </a>
+        <a href="https://www.pfizer.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Pfizer_logo.svg/1280px-Pfizer_logo.svg.png"
+            alt="Pfizer Logo"
+          />
+          <p>Pfizer</p>
+        </a>
+        <a href="https://www.abvie.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/AbbVie_logo.svg/1280px-AbbVie_logo.svg.png"
+            alt="AbbVie Logo"
+          />
+          <p>AbbVie</p>
+        </a>
+        <a href="https://www.novartis.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Novartis_Logo.svg/1280px-Novartis_Logo.svg.png"
+            alt="Novartis Logo"
+          />
+          <p>Novartis</p>
+        </a>
+        <a href="https://www.merck.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Merck_%26_Co._logo.svg/1280px-Merck_%26_Co._logo.svg.png"
+            alt="Merck Logo"
+          />
+          <p>Merck & Co.</p>
+        </a>
+        <a href="https://www.bayer.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Bayer_logo.svg/1280px-Bayer_logo.svg.png"
+            alt="Bayer Logo"
+          />
+          <p>Bayer</p>
+        </a>
+        <a href="https://www.sanofi.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Sanofi_logo.svg/1280px-Sanofi_logo.svg.png"
+            alt="Sanofi Logo"
+          />
+          <p>Sanofi</p>
+        </a>
+        <a href="https://www.abbott.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Abbott_Logo.svg/1280px-Abbott_Logo.svg.png"
+            alt="Abbott Logo"
+          />
+          <p>Abbott</p>
+        </a>
+        <a href="https://www.moderna.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Moderna_logo.svg/1280px-Moderna_logo.svg.png"
+            alt="Moderna Logo"
+          />
+          <p>Moderna</p>
+        </a>
+        <a href="https://www.gilead.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Gilead_Sciences_logo.svg/1280px-Gilead_Sciences_logo.svg.png"
+            alt="Gilead Sciences Logo"
+          />
+          <p>Gilead Sciences</p>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Healthcare Sector Insights</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">&#8679;</button>
+
+    <script>
+      // Back to top button functionality
+      const backToTopBtn = document.getElementById("backToTop");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+      backToTopBtn.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>

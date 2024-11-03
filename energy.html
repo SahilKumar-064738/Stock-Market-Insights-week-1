@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Sector Overview</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        background-color: #f4f4f4; /* Light background */
+        color: #333; /* Dark text */
+        scroll-behavior: smooth;
+      }
+      header {
+        background: #007bff; /* Professional blue */
+        padding: 20px;
+        text-align: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+        color: #ffffff; /* White text */
+      }
+      h2 {
+        font-size: 2em;
+        margin: 20px 0;
+        border-bottom: 2px solid #007bff; /* Blue underline */
+        padding-bottom: 10px;
+      }
+      section {
+        margin: 20px;
+        padding: 20px;
+        background: #ffffff; /* White section background */
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      p {
+        font-size: 1.1em;
+        line-height: 1.6;
+      }
+      ul {
+        list-style-type: disc;
+        margin-left: 20px;
+        font-size: 1.1em;
+      }
+      .company-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 20px;
+      }
+      .company-list a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: #333; /* Dark text */
+        transition: transform 0.3s;
+        flex-basis: 150px;
+      }
+      .company-list a:hover {
+        transform: scale(1.05); /* Slight zoom effect on hover */
+      }
+      .company-list img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      footer {
+        margin-top: 40px;
+        text-align: center;
+        padding: 15px;
+        background: #007bff; /* Professional blue */
+        color: #ffffff; /* White text */
+        border-radius: 8px;
+      }
+      .back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: #007bff; /* Professional blue */
+        color: #ffffff;
+        border: none;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        cursor: pointer;
+        display: none;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        transition: background 0.3s;
+      }
+      .back-to-top:hover {
+        background: #0056b3; /* Darker blue on hover */
+      }
+      @media (max-width: 768px) {
+        header,
+        footer {
+          padding: 15px;
+        }
+        h1 {
+          font-size: 2em;
+        }
+        h2 {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Energy Sector Overview</h1>
+    </header>
+
+    <section id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        The energy sector fuels global economies and includes companies involved
+        in <strong>extracting</strong>, <strong>refining</strong>, and
+        <strong>distributing</strong> energy resources. The sector is a major
+        contributor to GDP in many countries.
+      </p>
+    </section>
+
+    <section id="key-segments">
+      <h2>Key Segments</h2>
+      <ul>
+        <li>
+          <strong>Upstream</strong>: Exploration and production companies that
+          extract oil and natural gas.
+        </li>
+        <li>
+          <strong>Midstream</strong>: Transportation and storage of raw energy
+          materials.
+        </li>
+        <li>
+          <strong>Downstream</strong>: Refining and marketing of end products
+          such as gasoline and diesel.
+        </li>
+        <li>
+          <strong>Renewables</strong>: Companies focusing on solar, wind,
+          hydroelectric, and geothermal power.
+        </li>
+      </ul>
+    </section>
+
+    <section id="future-outlook">
+      <h2>Future Outlook</h2>
+      <p>
+        The transition to renewable energy and sustainability initiatives are
+        reshaping the sector. While traditional oil and gas remain significant,
+        renewables are experiencing rapid growth. Technological advancements in
+        energy storage, battery efficiency, and grid modernization continue to
+        evolve the market.
+      </p>
+    </section>
+
+    <section id="challenges">
+      <h2>Challenges</h2>
+      <p>
+        The energy sector faces volatility in oil prices and regulatory hurdles
+        related to environmental impacts, which require companies to adapt to
+        changing market conditions.
+      </p>
+    </section>
+
+    <section id="top-companies">
+      <h2>Top 10 Companies</h2>
+      <div class="company-list">
+        <a href="https://corporate.exxonmobil.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/ExxonMobil_logo.svg/1280px-ExxonMobil_logo.svg.png"
+            alt="ExxonMobil Logo"
+          />
+          <p>ExxonMobil</p>
+        </a>
+        <a href="https://www.chevron.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Chevron_logo.svg/1280px-Chevron_logo.svg.png"
+            alt="Chevron Logo"
+          />
+          <p>Chevron</p>
+        </a>
+        <a href="https://www.shell.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Shell_logo.svg/1280px-Shell_logo.svg.png"
+            alt="Shell Logo"
+          />
+          <p>Shell</p>
+        </a>
+        <a href="https://www.bp.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/BP_logo.svg/1280px-BP_logo.svg.png"
+            alt="BP Logo"
+          />
+          <p>BP</p>
+        </a>
+        <a href="https://totalenergies.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/TotalEnergies_logo.svg/1280px-TotalEnergies_logo.svg.png"
+            alt="TotalEnergies Logo"
+          />
+          <p>TotalEnergies</p>
+        </a>
+        <a href="https://www.conocophillips.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/ConocoPhillips_logo.svg/1280px-ConocoPhillips_logo.svg.png"
+            alt="ConocoPhillips Logo"
+          />
+          <p>ConocoPhillips</p>
+        </a>
+        <a href="https://www.slb.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Schlumberger_logo.svg/1280px-Schlumberger_logo.svg.png"
+            alt="Schlumberger Logo"
+          />
+          <p>Schlumberger</p>
+        </a>
+        <a href="https://www.halliburton.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Halliburton_logo.svg/1280px-Halliburton_logo.svg.png"
+            alt="Halliburton Logo"
+          />
+          <p>Halliburton</p>
+        </a>
+        <a href="https://www.nexteraenergy.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/NextEra_Energy_logo.svg/1280px-NextEra_Energy_logo.svg.png"
+            alt="NextEra Energy Logo"
+          />
+          <p>NextEra Energy</p>
+        </a>
+        <a href="https://www.enbridge.com/" target="_blank">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Enbridge_Logo.svg/1280px-Enbridge_Logo.svg.png"
+            alt="Enbridge Logo"
+          />
+          <p>Enbridge</p>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Energy Sector Insights</p>
+    </footer>
+
+    <button class="back-to-top" id="backToTop">&#8679;</button>
+
+    <script>
+      // Back to top button functionality
+      const backToTopBtn = document.getElementById("backToTop");
+      window.onscroll = function () {
+        if (
+          document.body.scrollTop > 100 ||
+          document.documentElement.scrollTop > 100
+        ) {
+          backToTopBtn.style.display = "block";
+        } else {
+          backToTopBtn.style.display = "none";
+        }
+      };
+      backToTopBtn.onclick = function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      };
+    </script>
+  </body>
+</html>
